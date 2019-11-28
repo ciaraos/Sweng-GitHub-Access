@@ -1,0 +1,86 @@
+
+.App {
+  text-align: left;
+  background-color: white;
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.chart-header {
+  background-color: #020303;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.sub-header {
+  background-color: rgb(106, 209, 183);
+  min-height: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.searchBar{
+  border-bottom: 1px solid #FAaaaa;border-top: 0px solid #aaaaaa;border-right: 0px solid #aaaaaa;border-left: 0px solid #aaaaaa;
+  width: 500px;
+  align-items: middle;
+  background: #FFFFFF;
+  }
+  
+  .searchBar:focus{
+  border-bottom: 1px solid #aaaaaa;border-top: 0px solid #aaaaaa;border-right: 0px solid #aaaaaa;border-left: 0px solid #aaaaaa;
+  width: 500px;
+  align-items: middle;
+  background: #FFFFFF;
+  }
+  
+  
+  .searchBar:hover{
+  border-bottom: 1px solid rgb(58, 163, 137);border-top: 0px solid #aaaaaa;border-right: 0px solid #aaaaaa;border-left: 0px solid #aaaaaa;
+  width: 500px;
+  align-items: middle;
+  background: #FFFFFF;
+  
+  }
+  
+  input[type="submit"]{
+      /* change these properties to whatever you want */
+      background-color: rgb(106, 209, 183);
+      color: #ffffff;
+      border-radius: 0px;
+    border: 0px solid
+  }
+  
+  input[type="submit"]:hover{
+      /* change these properties to whatever you want */
+      background-color: rgb(224, 217, 217);
+      color: #C8A2C8;
+      border-radius: 50px;
+    border: 1px solid
+  }
+
+#chart {
+  background-color: #F5F2EB;
+  border: 1px solid #CCC;
+}
