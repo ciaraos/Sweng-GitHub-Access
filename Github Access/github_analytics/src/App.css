@@ -2,6 +2,7 @@
 .App {
   text-align: left;
   background-color: white;
+  align-items: center;
 }
 
 .App-header {
@@ -27,7 +28,7 @@
 }
 
 .sub-header {
-  background-color: rgb(106, 209, 183);
+  background-color: rgb(150, 235, 228);
   min-height: 3vh;
   display: flex;
   flex-direction: column;
@@ -42,7 +43,7 @@
 }
 
 .searchBar{
-  border-bottom: 1px solid #FAaaaa;border-top: 0px solid #aaaaaa;border-right: 0px solid #aaaaaa;border-left: 0px solid #aaaaaa;
+  border-bottom: 1px solid rgb(191, 170, 250);border-top: 0px solid #aaaaaa;border-right: 0px solid #aaaaaa;border-left: 0px solid #aaaaaa;
   width: 500px;
   align-items: middle;
   background: #FFFFFF;
@@ -66,7 +67,7 @@
   
   input[type="submit"]{
       /* change these properties to whatever you want */
-      background-color: rgb(106, 209, 183);
+      background-color: rgb(150, 235, 228);
       color: #ffffff;
       border-radius: 0px;
     border: 0px solid
@@ -74,8 +75,8 @@
   
   input[type="submit"]:hover{
       /* change these properties to whatever you want */
-      background-color: rgb(224, 217, 217);
-      color: #C8A2C8;
+      background-color: rgb(191, 170, 250);
+      color: white;
       border-radius: 50px;
     border: 1px solid
   }
