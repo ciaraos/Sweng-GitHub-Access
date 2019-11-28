@@ -8,7 +8,12 @@ import lda from './lda';
 import Plot from 'react-plotly.js';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Tab from 'react-bootstrap';
-//import Tabs from './components/Tabs.jsx';
+//import Tabs from './components/Tabs.jsx'
+import BarChart from './components/BarChart.jsx'
+import PieChart from './components/PieChart.jsx'
+import HorizontalTabs from './components/HorizontalTabs.jsx'
+import logo from './logo.png'
+
 
 import './App.css';
 import './index.css';
@@ -17,11 +22,28 @@ import './index.css';
 import * as d3 from 'd3';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './bootstrap.css';
+{/* <hr></hr>
+        Profile Details:
+        <GitProfileDetails infoclean={this.state.infoclean}/>
+        <hr></hr>
+        Repositories:
+        <RepoList repitems={this.state.repitems}/>
+        <hr></hr>
+        Starred Repositories:
+        <RepoList repitems={this.state.staritems}/>
+        <hr></hr>
+        Programming Languages:
+        <ProgrammingLang langslist={this.state.replanguagecount}/> */}
 //import './d3.js';
+{/* <HorizontalTabs 
+          repitems={this.state.repitems} 
+          staritems={this.state.staritems} 
 
-var values = [19, 26, 55];
-var labels = ['Residential', 'Non-Residential', 'Utility'];
-var type = 'pie';
+          infoclean = {this.state.infoclean}
+
+          followers={this.state.followers}
+          following={this.state.following}
+        /> */}
 
 class App extends Component {
   
@@ -117,9 +139,6 @@ render() {
         <header className="App-header">
           <h1 className="App-title">GitHub Analytics</h1>
         </header>
-        <p className="App-intro">
-          Type in a GitHub username to analyse :)
-        </p>
         <hr></hr>
         <Form
           formData={this.state.formData}
@@ -127,19 +146,15 @@ render() {
           handleFormChange={this.handleFormChange}
         />
         <hr></hr>
-        Profile Details:
+          <h1 className="sub-header">Profile Details:</h1>
         <GitProfileDetails infoclean={this.state.infoclean}/>
         <hr></hr>
-        Repositories:
+          <h1 className="sub-header">Repositories:</h1>
         <RepoList repitems={this.state.repitems}/>
         <hr></hr>
-        Starred Repositories:
-        <RepoList repitems={this.state.staritems}/>
-        <hr></hr>
-        Programming Languages:
+          <h1 className="sub-header">Programming Languages:</h1>
         <ProgrammingLang langslist={this.state.replanguagecount}/>
-         <div className='App'>
-      </div>
+        <img src = {logo} alt = "website logo" style={{ alignSelf: 'center'}}/>
       </div>
       
     );
