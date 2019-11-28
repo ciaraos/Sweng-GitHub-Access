@@ -3,21 +3,21 @@ import Moment from 'react-moment';
 import PieChart from './PieChart.jsx'
 
 const RepoList = (props) => {
-  if (props.repitems) {
+  if (props.repoItems) {
     return (
         <ul>
-          {props.repitems.map((repitem) =>
-            <li key={repitem.id}>
+          {props.repoItems.map((repoItems) =>
+            <li key={repoItems.id}>
               <div>
                 <div>
-                  <a href={repitem.html_url} target="_blank">{repitem.name}</a> || Started <Moment from={new Date()}>{repitem.created_at}</Moment>
+                  <a href={repoItems.html_url} target="_blank">{repoItems.name}</a> || Started <Moment from={new Date()}>{repoItems.created_at}</Moment>
                 </div>
                 <div>
-                  <i>{repitem.description}</i>
+                  <i>{repoItems.description}</i>
                 </div>
                 <div>
-                 Language: {repitem.language} || Watchers: {repitem.watchers_count} || Forks: {repitem.forks_count}
-                 <PieChart repoSize={[repitem.watchers_count,repitem.forks_count]} repoNames={['watchers','forks']}/>
+                 Language: {repoItems.language} || Watchers: {repoItems.watchers_count} || Forks: {repoItems.forks_count}
+                 <PieChart repoSize={[repoItems.watchers_count,repoItems.forks_count]} repoNames={['watchers','forks']}/>
 
                 </div>
               </div>

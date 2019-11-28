@@ -3,6 +3,7 @@ import React from 'react';
 import Plot from 'react-plotly.js';
 
 const BarChart = (props) => {
+    
     return (
         <Plot data={[
             {
@@ -10,7 +11,7 @@ const BarChart = (props) => {
                 x: props.repoNames,
                 y: props.data,
                 marker: {
-                    color: '#C8A2C8',
+                    color: 'rgb(191, 170, 250)',
                     line: {
                         width: 2.5
                     }},
