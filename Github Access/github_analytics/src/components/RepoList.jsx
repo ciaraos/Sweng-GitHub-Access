@@ -1,5 +1,7 @@
 import React from 'react';
 import Moment from 'react-moment';
+import PieChart from './PieChart.jsx'
+
 const RepoList = (props) => {
   if (props.repitems) {
     return (
@@ -15,6 +17,8 @@ const RepoList = (props) => {
                 </div>
                 <div>
                  Language: {repitem.language} || Watchers: {repitem.watchers_count} || Forks: {repitem.forks_count}
+                 <PieChart repoSize={[repitem.watchers_count,repitem.forks_count]} repoNames={['watchers','forks']}/>
+
                 </div>
               </div>
             </li>
