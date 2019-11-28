@@ -3,19 +3,21 @@ import React from 'react';
 import Plot from 'react-plotly.js';
 
 const BarChart = (props) => {
-    
     return (
-       
-    <Plot data={[
-        {
-            y: props.data,
-            x: props.labels,
-            type: 'bar',
-            title: props.title
-        }
-        ]}
-        layout={ {width: 500, height: 400} }
-    />
+        <Plot data={[
+            {
+                title: 'Languages Used',
+                x: props.repoNames,
+                y: props.data,
+                marker: {
+                    color: '#C8A2C8',
+                    line: {
+                        width: 2.5
+                    }},
+            }
+            ]}
+            layout = {{title: 'Languages Used', width: 1000, height: 400}}
+        />
     );
 }
 
