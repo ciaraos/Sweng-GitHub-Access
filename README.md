@@ -10,10 +10,16 @@ I decided the best and most interesting way to create a visualization of data wa
 
 ### Visualisations:
 #### Home Page:
-![](README screenshots/home page .png)
+![](README%20screenshots/home%20page%20.png)
 #### Profile Details:
+![](README%20screenshots/profile%20details.png)
+
+![](README%20screenshots/facebook%20profile%20details.png)
 #### Pie Chart:
+![](README%20screenshots/pie%20chart.png)
 #### Line Graph:
+![](README%20screenshots/programming%20languages.png)
+![](README%20screenshots/line%20graph.png)
 
 ## Resources:
 * d3.js
