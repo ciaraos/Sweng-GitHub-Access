@@ -28,13 +28,13 @@ Finally, towards the bottom of the screen, a list of languages used by the user 
 
 ## Resources:
 * **d3.js** - I had initially attempted to display my data with d3 graphs, however, I found this to be a challenge 
-* **plotly.js** - Instead of d3.js, I opted to use plotly.js as it wa easier to understand and implement
+* **plotly.js** - Instead of d3.js, I opted to use plotly.js as it was easier to understand and implement
 * **react app** - I used the create react app to start off the project, and coded the rest of it in React.js
 * **bootstrap.css** - I played around with bootstrap adding tabs and panels to my homepage, however, this caused a few problems with displaying my data to I decided to go for a more simple UI approach. 
 * **GitHub API** - I used the GitHub API to extract data 
 
 ## Running the project:
-The project will be run in local host (http://localhost:3000 to view in browser) 
+The project will be run in local host (http://localhost:3000 to view in browser). 
 To run the project, all you must do is clone the repository and use the following commands:
 * `npm install` 
 * `npm start`
