@@ -38,5 +38,6 @@ The project will be run in local host (http://localhost:3000 to view in browser)
 To run the project, all you must do is clone the repository and use the following commands:
 * `npm install` 
 * `Sweng-GitHub-Access/'Github Access'/github_analytics`
+* `npm install react-plotly.js plotly.js`
 * `npm start`
 
