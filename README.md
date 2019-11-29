@@ -10,7 +10,7 @@ I decided the best and most interesting way to create a visualization of data wa
 
 ### Visualisations:
 #### Home Page:
-README screenshots/home page .png
+![](README screenshots/home page .png)
 #### Profile Details:
 #### Pie Chart:
 #### Line Graph:
