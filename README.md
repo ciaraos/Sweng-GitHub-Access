@@ -10,7 +10,7 @@ I decided the best and most interesting way to create a visualization of data wa
 
 ### Visualisations:
 #### Home Page:
-https://github.com/ciaraos/Sweng-GitHub-Access/blob/master/README%20screenshots/home%20page%20.png
+README screenshots/home page .png
 #### Profile Details:
 #### Pie Chart:
 #### Line Graph:
