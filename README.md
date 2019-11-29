@@ -9,6 +9,7 @@
 I decided the best and most interesting way to create a visualization of data was through the create react app. I had never used this before but I know many people used it last year for the Software Engineering Group Project. It was difficult to get started as I had very little experience coding in JavaScript but over time I got more comfortable. I created a home page where the user can search a GitHub username they would like to analyse. Then the data is displayed under various headings and visualized through a pie chart and a line graph. 
 
 ### Visualisations:
+![](README%20screenshots/React%20App.gif)
 #### Home Page:
 ![](README%20screenshots/home%20page%20.png)
 #### Profile Details:
