@@ -10,6 +10,7 @@ I decided the best and most interesting way to create a visualization of data wa
 
 ### Visualisations:
 #### Home Page:
+/relative/path/to/img.jpg?raw=true "home page"
 #### Profile Details:
 #### Pie Chart:
 #### Line Graph:
