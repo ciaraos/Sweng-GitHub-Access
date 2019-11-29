@@ -15,7 +15,7 @@ I decided the best and most interesting way to create a visualization of data wa
 When a user first opens the website this is what they see. There is the GitHub Analytics title and a GitHub icon at the bottom of the page. They can enter a username to analyse into the search bar. The data is loaded using axios from the GitHub API, it is then stored as a json object. 
 #### Profile Details:
 ![](README%20screenshots/profile%20details.png)
-After searching a username, user details are displayed. This is a screenshot of my profile details. As you can see, it shows my name, when I joined, my followers and my public repos. It can also display bio, blog, location, and company iif I were to have those details on my account. A chart of my commits is dispayed through the GitHub API, as well as a link to my GitHub profile. 
+After searching a username, user details are displayed. This is a screenshot of my profile details. As you can see, it shows my name, when I joined, my followers and my public repos. It can also display bio, blog, location, and company if I were to have those details on my account. A chart of my commits is dispayed through the GitHub API, as well as a link to my GitHub profile. 
 ![](README%20screenshots/facebook%20profile%20details.png)
 The user has the option to scroll back to the top of the page to search another username. I chose Facebook as an example of this as it shows their location and blog. 
 #### Pie Chart:
